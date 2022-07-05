@@ -1,0 +1,35 @@
+.navbar-nav .nav-link {
+    color: rgba(146,148,150) !important;
+}
+
+.navbar-nav .nav-link:hover {
+     color: rgba(30,147,214) !important;
+     transition: 1s;
+
+
+}
+
+body, nav {
+  font-family: 'Arima', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.mb-2 {
+  width: 300px;
+  height: 400px;
+  margin: 10px
+}
+
+
+#blogtitle {
+    font-size: 5rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
